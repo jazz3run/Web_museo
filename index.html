@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../web-gestion/css/normalize.css">
+    <link rel="stylesheet" href="../web-gestion/css/style.css">
+    <title>Museo</title>
+</head>
+<body>
+
+<!-- Navbar -->
+   <nav class="navbar">
+        <div class="logo">
+              <a href="https://www.argentina.gob.ar/cultura/museos-institutos/museos"><img class="logo-img" src="../web-gestion/img/icono.png" alt="Museo Argentino"></a>
+            <aside>Museo Argentino</aside>
+        </div>
+
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="../web-gestion/login.html">Reserva</a></li>
+            <li><a href="#expo">Exposiciones</a></li>
+            <li><a href="#nosotros">Sobre nosotros</a></li>
+          </ul>
+        </div>
+      </nav>
+
+<!-- Foto de museo y titulo -->
+  <header>
+      <section class="header-contenido">
+        <h1>Visita nuestros museos de la forma más sencilla</h1>
+        <p>El conocimiento esta al alcance de todos</p>
+      </section>
+  </header>
+
+<!-- Cuerpo de la pagina -->
+<main>
+
+<!-- Exposiciones -->
+  <section id="expo" class="exposiciones">
+     <h2 class="exposiciones-subtitulo">¿Qué exposiciones tenemos?</h2>
+     <p class="exposiciones-sobre">Disponemos de diversas exibiciones sobre el amplio mundo de las ciencias naturales</p>
+
+     <div class="exposiciones-carrousel">
+       <div class="carousel-wrapper">
+   <span id="item-1"></span>
+   <span id="item-2"></span>
+   <span id="item-3"></span>
+   <div class="carousel-item item-1">
+     <a href="#item-3" class="arrow-prev arrow"></a>
+     <a href="#item-2" class="arrow-next arrow"></a>
+   </div>
+
+   <div class="carousel-item item-2">
+     <a href="#item-1" class="arrow-prev arrow"></a>
+     <a href="#item-3" class="arrow-next arrow"></a>
+   </div>
+
+   <div class="carousel-item item-3">
+     <a href="#item-2" class="arrow-prev arrow"></a>
+     <a href="#item-1" class="arrow-next arrow"></a>
+   </div>
+
+       </div>
+    </div>
+  </section>
+
+<!-- Sobre nosotros -->
+  <section id="nosotros" class="nosotros">
+    <div class="nosotros__container container">
+        <div class="nosotros__texto">
+            <h2 class="subtitulo">Nosotros somos el museo de ciencias naturales de Argentina</h2>
+            <p class="nosotros__parrafo">El Museo Argentino de Ciencias Naturales, ámbito único por historia y patrimonio, integra a la investigación, la conservación, la exhibición, y la educación para que toda la comunidad pueda descubrir, comprender, valorar y disfrutar la naturaleza (que incluye al hombre), sus procesos y diversidad, con énfasis en nuestro territorio.</p>
+            <a href="http://www.macnconicet.gob.ar/el-museo/" class="cta">Más información</a>
+        </div>
+
+        <figure class="knowledge__figura">
+            <img src="../web-gestion/img/museoarg.jpg" class="nosotros__img">
+        </figure>
+    </div>
+  </section>
+
+  <!-- Ubicación -->
+  <section id="ubicacion" class="ubicacion">
+     <h2 class="exposiciones-subtitulo">¿Dónde nos ubicamos?</h2>
+     <p class="exposiciones-sobre">Acá les dejamos un mapa dettalado de nuestra ubicación</p>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7975280296305!2d-58.39519308477083!3d-34.58398938046454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa199c2f643%3A0x49e543b8331abe7d!2sMuseo%20Nacional%20de%20Bellas%20Artes!5e0!3m2!1ses-419!2sar!4v1663370070343!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </section>
+
+  <!-- Planos -->
+  <section id="planos" class="planos">
+     <h2 class="plano-subtitulo">Planos de la instalacion</h2>
+     <img class="imgplano" src="../web-gestion/img/planoimg.jpg" alt="">
+  </section>
+
+</main>
+
+<footer class="footer">
+    <section class="footer__container container">
+
+        <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+            <h2 class="footer__newsletter">¡¡Contactanos!!</h2>
+            <div class="footer__inputs">
+                <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                <input type="submit" value="Enviar" class="footer__submit">
+            </div>
+        </form>
+    </section>
+
+    <section class="footer__copy container">
+        <div class="footer__social">
+            <a href="#" class="footer__icons"><img src="./img/facebook.svg" class="footer__imgf"></a>
+            <a href="#" class="footer__icons"><img src="./img/twitter.svg" class="footer__imgt"></a>
+            <a href="#" class="footer__icons"><img src="./img/youtube.svg" class="footer__imgy"></a>
+        </div>
+
+        <h3 class="footer__copyright">Derechos reservados &copy; ET N°24</h3>
+    </section>
+</footer>
+      <script src="../web-gestion/js/script.js"></script>
+      <script src="../web-gestion/js/main.js" defer></script>
+</body>
+</html>

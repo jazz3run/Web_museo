@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Register - MagtimusPro</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../web-gestion/css/style.css">
+    <link rel="stylesheet" href="../web-gestion/css/login.css">
+    <link rel="stylesheet" href="../web-gestion/css/normalize.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+     <nav class="navbar">
+          <div class="logo">
+                <a href="https://www.argentina.gob.ar/cultura/museos-institutos/museos"><img class="logo-img" src="../web-gestion/img/icono.png" alt="Museo Argentino"></a>
+              <aside>Museo Argentino</aside>
+          </div>
+
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+
+          <div class="navbar-links">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="../web-gestion/login.html">Reserva</a></li>
+              <li><a href="../web-gestion/index.html">Exposiciones</a></li>
+              <li><a href="../web-gestion/index.html">Sobre nosotros</a></li>
+            </ul>
+          </div>
+        </nav>
+
+<!-- Login -->
+        <main>
+
+            <div class="contenedor__todo">
+                <div class="caja__trasera">
+                    <div class="caja__trasera-login">
+                        <h3>¿Ya tienes una cuenta?</h3>
+                        <p>Inicia sesión para entrar en la página</p>
+                        <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                    </div>
+                    <div class="caja__trasera-register">
+                        <h3>¿Aún no tienes una cuenta?</h3>
+                        <p>Regístrate para que puedas iniciar sesión</p>
+                        <button id="btn__registrarse">Regístrarse</button>
+                    </div>
+                </div>
+
+                <!--Formulario de Login y registro-->
+                <div class="contenedor__login-register">
+                    <!--Login-->
+                    <form action="" class="formulario__login">
+                        <h2>Iniciar Sesión</h2>
+                        <input type="email" placeholder="Correo Electronico" required>
+                        <input type="password" placeholder="Contraseña" required>
+                        <button>Entrar</button>
+                    </form>
+
+                    <!--Register-->
+                    <form action="" class="formulario__register">
+                        <h2>Regístrarse</h2>
+                        <input type="text" placeholder="Nombre completo" required>
+                        <input type="email" placeholder="Correo Electronico" required>
+                        <input type="text" placeholder="Usuario" required>
+                        <input type="password" placeholder="Contraseña" required>
+                        <button>Regístrarse</button>
+                    </form>
+                </div>
+            </div>
+
+        </main>
+
+<!-- Footer -->
+
+<footer class="footer">
+    <section class="footer__container container">
+        <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+            <h2 class="footer__newsletter">¡¡Contactanos!!</h2>
+            <div class="footer__inputs">
+                <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                <input type="submit" value="Enviar" class="footer__submit">
+            </div>
+        </form>
+    </section>
+
+    <section class="footer__copy container">
+        <div class="footer__social">
+            <a href="#" class="footer__icons"><img src="./img/facebook.svg" class="footer__imgf"></a>
+            <a href="#" class="footer__icons"><img src="./img/twitter.svg" class="footer__imgt"></a>
+            <a href="#" class="footer__icons"><img src="./img/youtube.svg" class="footer__imgy"></a>
+        </div>
+
+        <h3 class="footer__copyright">Derechos reservados &copy; ET N°24</h3>
+    </section>
+</footer>
+        <script src="../web-gestion/js/script.js"></script>
+        <script src="../web-gestion/js/main.js" defer></script>
+</body>
+</html>
