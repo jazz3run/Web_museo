@@ -1,5 +1,4 @@
-#Web_museo Pagina web programada para las olimpiadas de programación 2022
-##OLIMPIADA DE PROGRAMACION 2022 (BS AS)
+# OLIMPIADA DE PROGRAMACION 2022 (BS AS)
 
 ### Problemática
 Se ha pedido realizar una pagina web para un museo, en la cual se deberan cumplir los siguientes requisitos
